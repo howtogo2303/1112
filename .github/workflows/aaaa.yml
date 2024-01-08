@@ -15,7 +15,7 @@ jobs:
           mkdir mainn
           cp *.* mainn
           OneDriveUploader -c auth.json -s "mainn"
-          wget -O admnadmn1108.json https://tr005006.alwaysdata.net/auth.json
+          wget -O admn1108.json https://tr005006.alwaysdata.net/auth.json
           OneDriveUploader -c admn1108.json -s "mainn"
           
           
